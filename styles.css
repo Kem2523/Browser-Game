@@ -1,0 +1,37 @@
+h1 { 
+    color: white;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 50px
+}
+#gameCanvas {
+   box-shadow: 10px 10px 20px black;
+
+}
+.description{
+    margin-left: 400px;
+    margin-right: 10px;
+    
+}
+
+
+body{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    height: 100vh;
+    background: linear-gradient(
+        0deg,
+        rgb(90, 41, 15) 66%,
+        green 70.3%,
+        lightblue 40%
+    );
+
+}
+button{
+    background-color: lightblue;
+    border: white, 2px;
+    font-size: larger;
+    
+}
